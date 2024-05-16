@@ -19,8 +19,7 @@ public class StudentList {
             new Student("Cassandra"),
             new Student("Braden"),
             new Student("John"),
-            new Student("Billy"),
-            new Student("Gillian")
+            new Student("Billy")
         };
 
         int c = 1;
