@@ -9,10 +9,31 @@ package studentlist;
  * @author helip
  */
 public class Student {
+    
     String name;
+    String studentId;
+    String address;
+
+    public String getStudentId() {
+        return studentId;
+    }
+
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public Student() {
         this.name = "undefined";
+        this.studentId = "undefined";
+        this.address = "undefined";
     }
 
     public Student(String n) {
